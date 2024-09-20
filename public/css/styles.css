@@ -1,0 +1,130 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@200;300;500;600;700;800&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=swap");
+
+html,
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    letter-spacing: 0.1px;
+}
+
+/* Button */
+.btn-danger {
+    background-color: red;
+    border-radius: 15px;
+    border-color: red;
+    padding: 10px 45px;
+    color: white;
+}
+
+.btn-outline-danger {
+    background-color: transparent;
+    border-radius: 15px;
+    border-color: red;
+    padding: 10px 45px;
+    color: red;
+}
+
+/* Navbar */
+.nav-item .nav-link {
+    font-size: 18px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.scroll-nav-active {
+    background-color: white;
+    box-shadow: 1px 1px 11px -1px rgba(1, 1, 1, 0.08);
+}
+
+.text-nav-active {
+    color: black;
+}
+
+#hero {
+    background-image: url("{{ asset('images/pakusari.jpg') }}");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.hero-title {
+    padding-top: 200px;
+}
+
+/* Responsive layar kecil 450 */
+@media screen and (min-width: 450px) {
+    .hero-text {
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+/* Responsive layar kecil 550 */
+@media screen and (min-width: 550px) {
+    .hero-text {
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+/* Responsive layar kecil 800 */
+@media screen and (min-width: 800px) {
+    .hero-text {
+        font-size: 65px;
+        font-weight: 600;
+    }
+}
+
+/* Join */
+.stripe {
+    height: 5px;
+    width: 40px;
+    background-color: red;
+}
+
+/* vidio */
+#video {
+    background-image: url("../../public/images/pakusari.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* Foto */
+.section-foto {
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax {
+    background-image: url("../../public/images/pakusari.jpg");
+}
+
+.stripe-putih {
+    height: 5px;
+    width: 40px;
+    background-color: white;
+}
+
+.input {
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+
+.btnPrimary {
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+
+/* Toast */
